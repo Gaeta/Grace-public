@@ -2,7 +2,7 @@
 name: Bot Bug report
 about: Create a report to help us improve our bot
 title: "[BUG]"
-labels: bug
+labels: bug, Bot
 assignees: ''
 
 ---
