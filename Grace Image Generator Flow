@@ -1,1 +1,170 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T04:32:09.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" version="14.8.6" etag="VAEGt_ZI699cKHehncTU" type="github"><diagram id="-cG7zsMSKuvV6RhPXj_C">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-22T05:09:38.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="pLbkglFpQZubQlw0x-Jj" version="14.8.6" type="github">
+  <diagram id="-cG7zsMSKuvV6RhPXj_C" name="Page-1">
+    <mxGraphModel dx="1673" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-1" value="Hub System" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="950" y="510" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-14" value="Bot Shard 4" style="rounded=0;whiteSpace=wrap;html=1;deletable=0;movable=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1023" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-15" value="Bot Manager 2" style="rounded=0;whiteSpace=wrap;html=1;deletable=0;movable=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-16" value="Bot Shard 5" style="rounded=0;whiteSpace=wrap;html=1;deletable=0;movable=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1023" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-17" value="Bot Shard 6" style="rounded=0;whiteSpace=wrap;html=1;deletable=0;movable=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1023" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-18" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;shadow=0;deletable=0;movable=1;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" target="TuKf-4xwEy6LSnhGNdOE-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="1020" as="sourcePoint" />
+            <mxPoint x="1010" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="990" />
+              <mxPoint x="1110" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-19" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;shadow=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;deletable=0;movable=1;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" target="TuKf-4xwEy6LSnhGNdOE-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="1020" as="sourcePoint" />
+            <mxPoint x="1120" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="970" />
+              <mxPoint x="1110" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-20" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;shadow=0;deletable=0;movable=1;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="1020" as="sourcePoint" />
+            <mxPoint x="1110" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1250" y="990" />
+              <mxPoint x="1110" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-50" value="Discord User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-52" value="Discord WS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1230" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-54" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;shadow=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.498;entryY=0.946;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-50" target="TuKf-4xwEy6LSnhGNdOE-52">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1160" y="1540" as="sourcePoint" />
+            <mxPoint x="1190" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-57" value="" style="shape=flexArrow;endArrow=classic;html=1;shadow=0;entryX=0.595;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.409;exitY=0.07;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-52" target="TuKf-4xwEy6LSnhGNdOE-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="1150" as="sourcePoint" />
+            <mxPoint x="1160" y="1100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="971" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-59" value="&lt;h1&gt;User Slash/User Interaction&lt;/h1&gt;&lt;p&gt;The user sends an Interaction for the level card command that will return an image of the users current level for that guild.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1400" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-61" value="&lt;h1&gt;&lt;span&gt;WS Slash/User Interaction To Shard&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;After the user sends the interaction to Discords WS, the WS will send the &lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Information&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;&amp;nbsp;to its pre defined shard based off the guild Id. For example #4&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1140" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-64" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-15" target="TuKf-4xwEy6LSnhGNdOE-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1150" y="840" as="sourcePoint" />
+            <mxPoint x="1110" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-72" value="Grace Image Generator Flow" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-97" value="Legend" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;rounded=1;fontSize=30;fontColor=#FFFFFF;fillColor=none;gradientColor=none;html=1;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="276" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-98" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-97">
+          <mxGeometry y="30" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-99" value="Color Type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-98">
+          <mxGeometry width="61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-100" value="Meaning" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-98">
+          <mxGeometry x="61" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-101" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-97">
+          <mxGeometry y="60" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-102" value="Green" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-101">
+          <mxGeometry width="61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-103" value="The connection to the hub server" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-101">
+          <mxGeometry x="61" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-104" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-97">
+          <mxGeometry y="90" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-105" value="Purple" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-104">
+          <mxGeometry width="61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-106" value="The connect between a manager and shard" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-104">
+          <mxGeometry x="61" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-115" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-97">
+          <mxGeometry y="120" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-116" value="Blue" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-115">
+          <mxGeometry width="61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-117" value="Direct Discord WS info" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-115">
+          <mxGeometry x="61" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-107" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;entryX=0.156;entryY=1;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#60a917;strokeColor=#2D7600;entryPerimeter=0;" edge="1" parent="1" target="TuKf-4xwEy6LSnhGNdOE-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="1020" as="sourcePoint" />
+            <mxPoint x="1230" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="900" />
+              <mxPoint x="1000" y="720" />
+              <mxPoint x="1000" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-108" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;entryX=0.156;entryY=1;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#60a917;strokeColor=#2D7600;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160.08" y="1020" as="sourcePoint" />
+            <mxPoint x="1160" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="960" />
+              <mxPoint x="1200" y="960" />
+              <mxPoint x="1200" y="720" />
+              <mxPoint x="1160.08" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-110" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;entryX=0.156;entryY=1;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#60a917;strokeColor=#2D7600;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260.08" y="1020" as="sourcePoint" />
+            <mxPoint x="1260" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260.08" y="900" />
+              <mxPoint x="1260.08" y="720" />
+              <mxPoint x="1260.08" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-119" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;span&gt;WS Slash/User Interaction To Shard&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;After the shard receives the WS Slash Interaction and &lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;identities&lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&amp;nbsp;itself as a level command, the shard will collect the users info and xp data from the database&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1029.5" width="280" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-123" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;sketch=0;fontSize=30;fontColor=#FFFFFF;fillColor=none;gradientColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="730" width="160" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
