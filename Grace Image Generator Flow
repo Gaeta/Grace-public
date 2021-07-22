@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T05:09:38.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="pLbkglFpQZubQlw0x-Jj" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T05:35:50.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="ot7k9n9TSlWoF8uJFHbz" version="14.8.6" type="github">
   <diagram id="-cG7zsMSKuvV6RhPXj_C" name="Page-1">
-    <mxGraphModel dx="1673" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,7 +74,7 @@
           <mxGeometry x="1130" y="1400" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="TuKf-4xwEy6LSnhGNdOE-61" value="&lt;h1&gt;&lt;span&gt;WS Slash/User Interaction To Shard&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;After the user sends the interaction to Discords WS, the WS will send the &lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Information&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;&amp;nbsp;to its pre defined shard based off the guild Id. For example #4&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1140" width="330" height="150" as="geometry" />
+          <mxGeometry x="650" y="1160" width="330" height="150" as="geometry" />
         </mxCell>
         <mxCell id="TuKf-4xwEy6LSnhGNdOE-64" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-15" target="TuKf-4xwEy6LSnhGNdOE-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -86,7 +86,7 @@
           <mxGeometry width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TuKf-4xwEy6LSnhGNdOE-97" value="Legend" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;rounded=1;fontSize=30;fontColor=#FFFFFF;fillColor=none;gradientColor=none;html=1;sketch=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="90" width="276" height="260" as="geometry" />
+          <mxGeometry x="60" y="90" width="276" height="250" as="geometry" />
         </mxCell>
         <mxCell id="TuKf-4xwEy6LSnhGNdOE-98" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-97">
           <mxGeometry y="30" width="276" height="30" as="geometry" />
@@ -124,12 +124,38 @@
         <mxCell id="TuKf-4xwEy6LSnhGNdOE-117" value="Direct Discord WS info" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-115">
           <mxGeometry x="61" width="215" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-126" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-97">
+          <mxGeometry y="150" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-127" value="Orange" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-126">
+          <mxGeometry width="61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-128" value="The Database info" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-126">
+          <mxGeometry x="61" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-129" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-97">
+          <mxGeometry y="180" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-130" value="Yellow" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-129">
+          <mxGeometry width="61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-131" value="Redis info" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-129">
+          <mxGeometry x="61" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-177" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-97">
+          <mxGeometry y="210" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-178" value="Red" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-177">
+          <mxGeometry width="61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-179" value="Image Generator connection" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="TuKf-4xwEy6LSnhGNdOE-177">
+          <mxGeometry x="61" width="215" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="TuKf-4xwEy6LSnhGNdOE-107" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;entryX=0.156;entryY=1;entryDx=0;entryDy=0;fontColor=#FFFFFF;fillColor=#60a917;strokeColor=#2D7600;entryPerimeter=0;" edge="1" parent="1" target="TuKf-4xwEy6LSnhGNdOE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="1020" as="sourcePoint" />
             <mxPoint x="1230" y="670" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1000" y="900" />
               <mxPoint x="1000" y="720" />
               <mxPoint x="1000" y="690" />
             </Array>
@@ -158,11 +184,157 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TuKf-4xwEy6LSnhGNdOE-119" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;span&gt;WS Slash/User Interaction To Shard&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;After the shard receives the WS Slash Interaction and &lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;identities&lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&amp;nbsp;itself as a level command, the shard will collect the users info and xp data from the database&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1029.5" width="280" height="47" as="geometry" />
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-119" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;span&gt;WS Slash/User Interaction To Shard&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;After the shard receives the WS Slash Interaction and &lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;identities&lt;/span&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&amp;nbsp;itself as a level command, the shard will collect the users info and xp data from the database. After the data is collected the shard will contact the hub to make the image..&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1029.5" width="280" height="80.5" as="geometry" />
         </mxCell>
-        <mxCell id="TuKf-4xwEy6LSnhGNdOE-123" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;sketch=0;fontSize=30;fontColor=#FFFFFF;fillColor=none;gradientColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="480" y="730" width="160" height="180" as="geometry" />
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-124" value="Redis" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;sketch=0;fontSize=30;fontColor=#FFFFFF;fillColor=none;gradientColor=none;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-125" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;shadow=0;sketch=0;fontSize=30;fontColor=#FFFFFF;fillColor=none;gradientColor=none;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="410" y="360" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-132" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-14" target="TuKf-4xwEy6LSnhGNdOE-125">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="460" y="810" as="sourcePoint" />
+            <mxPoint x="480" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="740" />
+              <mxPoint x="460" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-133" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-16">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="940" y="1033" as="sourcePoint" />
+            <mxPoint x="460" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="980" />
+              <mxPoint x="1030" y="980" />
+              <mxPoint x="1030" y="750" />
+              <mxPoint x="910" y="720" />
+              <mxPoint x="740" y="670" />
+              <mxPoint x="460" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-134" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1230" y="1023" as="sourcePoint" />
+            <mxPoint x="460" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="790" />
+              <mxPoint x="460" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-137" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;fillColor=#fa6800;strokeColor=#C73500;exitX=0.218;exitY=-0.045;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-15">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1070" y="840" as="sourcePoint" />
+            <mxPoint x="459.71000000000026" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1076" y="840" />
+              <mxPoint x="460" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-138" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;exitX=-0.004;exitY=0.852;exitDx=0;exitDy=0;fillColor=#fa6800;strokeColor=#C73500;exitPerimeter=0;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="860" y="590" as="sourcePoint" />
+            <mxPoint x="460" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="646" />
+              <mxPoint x="690" y="620" />
+              <mxPoint x="460" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-139" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;entryX=0.463;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-1" target="TuKf-4xwEy6LSnhGNdOE-124">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="780" y="620" as="sourcePoint" />
+            <mxPoint x="880" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-145" value="Image Generator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="510" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-147" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Level Card Process&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="350" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-149" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;span&gt;Create Image request from the Image Generator&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;Once the Hub receives the request to make the level card it will check all the params on the redis server to see if it has a cached image of all of those prams already. Prams will include avatar, xp, banner, etc&lt;br&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="690" width="280" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-151" value="" style="endArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-149" target="TuKf-4xwEy6LSnhGNdOE-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="820" as="sourcePoint" />
+            <mxPoint x="1000" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-152" value="" style="endArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-119" target="TuKf-4xwEy6LSnhGNdOE-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="980" as="sourcePoint" />
+            <mxPoint x="1020" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-153" value="" style="endArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="1120" as="sourcePoint" />
+            <mxPoint x="1010" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-154" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;span&gt;Check Image Request&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;The Hub will send the params to the redis, if it finds the cache it will return a buffer if not it will return with a null&lt;br&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="399.75" width="209.57" height="50.25" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-155" value="" style="endArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-154">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="500" as="sourcePoint" />
+            <mxPoint x="790" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-156" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-1" target="TuKf-4xwEy6LSnhGNdOE-145">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1280" y="530" as="sourcePoint" />
+            <mxPoint x="1380" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-180" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;span&gt;Create Image Request&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;The Hub will send the params to the Image generator to create the Image.&lt;br&gt;The image generator will return with a buffer or an error&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360.43" y="480" width="209.57" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-181" value="" style="endArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;exitX=0.279;exitY=1.041;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-180">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="670" as="sourcePoint" />
+            <mxPoint x="1410" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-182" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-145" target="TuKf-4xwEy6LSnhGNdOE-147">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1510" y="460" as="sourcePoint" />
+            <mxPoint x="1560" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1630" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-189" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Online Images Downloader&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="140" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-190" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-147" target="TuKf-4xwEy6LSnhGNdOE-189">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1530" y="450" as="sourcePoint" />
+            <mxPoint x="1580" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1800" y="340" />
+              <mxPoint x="1920" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-191" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;span&gt;Download any buffers&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;The level card process will have a list of urls to get the images from like banners, avatars etc. It will return with buffers or null or error. If errored/null the level card will use default Images on cached default images.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="350" width="244.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKf-4xwEy6LSnhGNdOE-192" value="" style="endArrow=classic;html=1;shadow=0;fontSize=30;fontColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TuKf-4xwEy6LSnhGNdOE-191">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1740" y="450" as="sourcePoint" />
+            <mxPoint x="1830" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
