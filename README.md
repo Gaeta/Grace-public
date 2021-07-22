@@ -1,2 +1,2 @@
 # Grace-public
-The public github repo.
+The public github repo for flowcharts.
